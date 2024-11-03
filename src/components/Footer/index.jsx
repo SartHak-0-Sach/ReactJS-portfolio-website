@@ -88,7 +88,7 @@ function Footer() {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <Logo>Hirdesh Khandelwal</Logo>
+                <Logo>Sarthak Sachdev</Logo>
                 <Nav>
                     <NavLink href="#about">About</NavLink>
                     <NavLink href="#skills">Skills</NavLink>
@@ -103,7 +103,7 @@ function Footer() {
                     <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2024 - Hirdesh Khandelwal. All rights reserved.
+                    &copy; 2024 - Sarthak Sachdev. All rights reserved.
                 </Copyright>
 
             </FooterWrapper>

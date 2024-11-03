@@ -174,7 +174,7 @@ const Navbar = () => {
         <NavContainer>
             <NavLogo to="/">
                 <div style={{ display: "flex", alignItems: "center", color: "white", cursor: 'pointer' }}>
-                    <DiCssdeck size="3rem" /> <Span>itshirdeshk</Span>
+                    <DiCssdeck size="3rem" /> <Span>itsmesarthak</Span>
                 </div>
             </NavLogo>
             <MobileIcon>

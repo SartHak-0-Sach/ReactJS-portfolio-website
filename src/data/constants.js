@@ -74,6 +74,26 @@ export const skills = [
                 image:
                     "https://icon.icepanel.io/Technology/svg/Streamlit.svg",
             },
+            {
+                name: "AngularJS",
+                image:
+                    "https://th.bing.com/th/id/OIP.OVUtPepwEqUuUIUtwO8lngHaH3?rs=1&pid=ImgDetMain",
+            },
+            {
+                name: "VueJS",
+                image:
+                    "https://vuejs.org/images/logo.png",
+            },
+            {
+                name: "SASS",
+                image:
+                    "https://th.bing.com/th/id/OIP.0z2WWG4tIINfVQ7vTpGv9AHaHa?rs=1&pid=ImgDetMain",
+            },
+            {
+                name: "TypeScript",
+                image:
+                    "https://th.bing.com/th/id/OIP.maKe3jXsLd8flovNsX2_3QHaHa?rs=1&pid=ImgDetMain",
+            },
         ],
     },
     {
@@ -160,6 +180,21 @@ export const skills = [
                 image:
                     "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
             },
+            {
+                name: "React Native",
+                image:
+                    "https://th.bing.com/th/id/OIP.NDmK7ahBHEtpr2QSGk1HKQHaIl?rs=1&pid=ImgDetMain",
+            },
+            {
+                name: "Expo Router",
+                image:
+                    "https://th.bing.com/th/id/OIP.pXpisnNJ4r359u8XyIYjgQHaHa?rs=1&pid=ImgDetMain",
+            },
+            {
+                name: "Dart",
+                image:
+                    "https://cdn.imgbin.com/3/21/3/imgbin-dart-logo-programming-language-computer-programming-android-BAAQkTN89EYJX2MCEy4CtkbQG.jpg",
+            }
         ],
     },
     {
@@ -215,66 +250,57 @@ export const experiences = [
         img: "https://www.motoroids.com/wp-content/uploads/2011/04/Maruti-Suzuki-Logo-2019-1200x675.jpg",
         role: "Maruti Suzuki India Ltd.",
         company: "App development Intern",
-        date: "Aug 2024 - Sep 2024",
-        desc: "Worked on different apps using React Native and Expo router along with doing their manual testing and documentation.",
-        doc: "https://res.cloudinary.com/itshirdeshk/image/upload/v1726931908/Brainwave_hmif8n.jpg",
+        date: "June 2024 - July 2024",
+        desc: "Worked on development, testing, debugging and deployment of various apps using React Native framework and Expo router along with doing their documentation for easier onboarding and understanding of code for future developers.",
+        doc: "",
     },
     {
         id: 1,
-        img: "https://res.cloudinary.com/itshirdeshk/image/upload/v1726930771/Headstarter_qamq3t.jpg",
-        role: "SWE Fellowship",
-        company: "Headstarter AI",
-        date: "May 2024 - July 2024",
-        desc: "Headstarter Summer Fellow. This is a 7-week software engineering fellowship. The program will consist of building 5 AI projects, 5 weekend hackathons, 1 final project with 1000+ users, interview prep, resume reviews and feedback from real software engineers.",
-        doc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFv-4PfkPZZuRTe3aboRo9M8MhqDruiZq2fw&s",
+        img: "https://img.jagranjosh.com/images/2022/May/3152022/NSIT.png",
+        role: "Research Intern",
+        company: "Netaji Subhash University of Technology",
+        date: "July 2024 - September 2024",
+        desc: "Worked under professor Preeti Kaur in NSUT on the topic of calculating tumour cellularity and nuclei count using Deep Learning models and U-Net architecture to predict development of cancers in contrast enhanced CT-scan images pre-processed and prepared using ImageJ software done by image segmentation and masking for better classification accuracy using Tensorflow, Scikit learn and OpenCV.",
+        doc: "",
     },
     {
         id: 2,
-        img: "https://avatars.githubusercontent.com/u/39153675?s=280&v=4",
-        role: "Open Source Contributor",
-        company: "GirlScript Summer of Code",
-        date: "May 2024 - Present",
-        desc: "Contributing to different open-source projects.",
-        doc: "https://res.cloudinary.com/itshirdeshk/image/upload/v1721051177/contributor_badge_2024_tgovmm.png",
-    },
-    {
-        id: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXFkM6OLkGL2A33dpKVBjSKSq9b9wO1FXGg&s",
-        role: "Open Source Contributor",
-        company: "Social Summer of Code",
-        date: "May 2024 - Present",
-        desc: "Contributing to different open-source projects.",
-        doc: "https://res.cloudinary.com/itshirdeshk/image/upload/v1721051178/SSOC_Badge_s6sq03.png",
-    },
+        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
+        role: "ML Engineer intern",
+        company: "Power Finance Corporation Limited",
+        date: "October 2024 - Present",
+        desc: "My role as an ML engineer intern was development of chatbots and help integrate them with existing architecture based on Oracle database, this role taught me how to work on frameworks like dialogflow but also various natural language proceessing(NLP) concepts that are essential for an ML engineer to know and work on. Implementing sentiment analysis is something that was critical to improve customer gratification and problem resolution and working with other senior engineers in the team taught me a lot of new concepts that will stay with me for a long time in the future.",
+        doc: "",
+    }
 ];
 
 export const education = [
     {
         id: 0,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xh-TiwOBmk8xZSPC_br_loloibcEupp5MQ&s",
-        school: "Raja Balwant Singh Engineering Technical Campus",
-        date: "Sep 2021 - Jul 2025",
+        img: "https://www.edarabia.com/wp-content/uploads/2013/08/delhi-technological-university-logo-india.jpg",
+        school: "Delhi Technological University",
+        date: "Dec 2021 - June 2025",
         grade: "8.0 CGPA",
-        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Raja Balwant Singh Engineering Technical Campus, Agra. I have completed 6 semesters and have a CGPA of 8.0. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-        degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Delhi Technological University, New Delhi. I have completed 6 semesters and have a CGPA of 8.0. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+        degree: "BTech, major- Mechanical Engineering, minor- Computer Science",
     },
     {
         id: 1,
-        img: "https://targetstudy.com/files/img/2/5292/L_55746.gif",
-        school: "Bal Vidya Peeth Public School",
+        img: "https://th.bing.com/th/id/OIP.IhHYnchVbOxxA0p-zuijRgHaJC?rs=1&pid=ImgDetMain",
+        school: "Delhi Public School, Dwarka",
         date: "Apr 2020 - Mar 2021",
         grade: "84.2%",
-        desc: "I completed my class 12 education at Bal Vidya Peeth Public School, Bareilly, where I studied Science with Computer Science.",
-        degree: "CBSE(XII), Science with Computer",
+        desc: "I completed my class 12 education at Delhi Public School, Dwarka, New Delhi, Delhi, where I studied Scienceand engineering fundamentals to successfully complete my higher secondary education.",
+        degree: "CBSE(XII)",
     },
     {
         id: 2,
-        img: "https://targetstudy.com/files/img/2/5292/L_55746.gif",
-        school: "Bal Vidya Peeth Public School",
+        img: "https://th.bing.com/th/id/OIP.IhHYnchVbOxxA0p-zuijRgHaJC?rs=1&pid=ImgDetMain",
+        school: "Delhi Public School, Dwarka",
         date: "Apr 2018 - Mar 2019",
-        grade: "89.6%",
-        desc: "I completed my class 10 education at Bal Vidya Peeth Public School, Bareilly, where I studied Science with Computer Application.",
-        degree: "CBSE(X), Science with Computer",
+        grade: "94.6%",
+        desc: "I completed my class 10 education at Delhi Public School, Dwarka, New Delhi, Delhi, where I studied Science and other fundamental subjects taught in middle school for successful completion of marticulation.",
+        degree: "CBSE(X)",
     },
 ];
 
@@ -293,7 +319,7 @@ export const projects = [
             "Supabase"
         ],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Trimrr",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://trimrr-sable.vercel.app/",
     },
     {
@@ -312,7 +338,7 @@ export const projects = [
             "Gemini API"
         ],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Mystery-Messenger",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://mystery-messenger-six.vercel.app/",
     },
     {
@@ -331,7 +357,7 @@ export const projects = [
             "Solidity",
         ],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Crypto-Vault",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://crypto-vault-self.vercel.app/",
     },
     {
@@ -343,7 +369,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_62_crgud1.png",
         tags: ["React Js", "Node Js", "Express Js", "MongoDb", "Socket.io"],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Chatting-Hub",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://chatting-hub.vercel.app/",
     },
     {
@@ -359,7 +385,7 @@ export const projects = [
             "Tailwind Css"
         ],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Pathfinding-Visualizer",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://pathfinding-visualizer-plum.vercel.app/",
     },
     {
@@ -371,7 +397,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955595/Screenshot_53_d9bzp5.png",
         tags: ["Node Js", "EJS", "MongoDb"],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Notes-Hub",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://notes-hub-ufwa.onrender.com/",
     },
     {
@@ -383,7 +409,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_47_mrvys9.png",
         tags: ["Node Js", "MongoDb", "Telegraf", "Gemini"],
         category: "bot app",
-        github: "https://github.com/itshirdeshk/Socio-Bot",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://t.me/socio_xyz_bot",
     },
     {
@@ -395,7 +421,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_83_lnundz.png",
         tags: ["React Js", "WebRTC", "WebSocket", "Socket.io"],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Backend-Practice/tree/main/WebRTC%20-%202",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://backend-practice-nine.vercel.app/",
     },
     {
@@ -407,7 +433,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955596/Screenshot_201_itsuyf.png",
         tags: ["EJS", "CSS", "Node Js", "WebSocket", "Socket.io"],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Realtime-Tracker",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://realtime-tracker-76ek.onrender.com",
     },
     {
@@ -419,7 +445,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_35_mnm9qk.png",
         tags: ["EJS", "CSS", "MongoDb", "Passport Js"],
         category: "web app",
-        github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Pin-Lite",
+        github: "https://github.com/SartHak-0-Sach",
         link: "https://pin-lite.onrender.com/",
     },
     {
@@ -431,7 +457,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955593/Screenshot_4_h1tcxd.png",
         tags: ["Python", "Numpy", "Pandas", "Keras", "NLTK", "Matplotlib", "Naive Bayes", "Scikit-Learn", "Streamlit"],
         category: "machine learning",
-        github: "https://github.com/itshirdeshk/SMS-Spam-Classifier",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 10,
@@ -442,7 +468,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721037478/Screenshot_253_m8sc9y.png",
         tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "Streamlit"],
         category: "machine learning",
-        github: "https://github.com/itshirdeshk/Movie-Recommender-System",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 11,
@@ -453,7 +479,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721037473/Screenshot_252_bspvpq.png",
         tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "XGBoost", "Streamlit"],
         category: "machine learning",
-        github: "https://github.com/itshirdeshk/Laptop-Price-Predictor",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 12,
@@ -464,7 +490,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721040081/Screenshot_254_e2bf0c.png",
         tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
         category: "gen ai",
-        github: "https://github.com/itshirdeshk/GenAI-Projects/tree/main/News%20Research%20Tool",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 13,
@@ -475,7 +501,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721040924/Screenshot_255_qgri0w.png",
         tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
         category: "gen ai",
-        github: "https://github.com/itshirdeshk/Gemini-Projects/tree/main/Chat%20with%20PDF",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 14,
@@ -486,7 +512,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721041457/Screenshot_256_hrkpyg.png",
         tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
         category: "gen ai",
-        github: "https://github.com/itshirdeshk/Gemini-Projects/tree/main/YT%20Transcriber",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 15,
@@ -497,7 +523,7 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721043137/Allen_eenyab.jpg",
         tags: ["Flutter", "OpenAi Api"],
         category: "android app",
-        github: "https://github.com/itshirdeshk/Flutter-Projects/tree/master/allen",
+        github: "https://github.com/SartHak-0-Sach",
     },
     {
         id: 16,
@@ -508,6 +534,6 @@ export const projects = [
             "https://res.cloudinary.com/itshirdeshk/image/upload/v1721042910/MyGpt_nb86a9_Sharpened_ky4wjp.jpg",
         tags: ["Flutter", "Provider", "OpenAi Api"],
         category: "android app",
-        github: "https://github.com/itshirdeshk/my__gpt",
+        github: "https://github.com/SartHak-0-Sach",
     },
 ];

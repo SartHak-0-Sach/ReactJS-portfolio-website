@@ -289,7 +289,7 @@ export const education = [
         img: "https://th.bing.com/th/id/OIP.IhHYnchVbOxxA0p-zuijRgHaJC?rs=1&pid=ImgDetMain",
         school: "Delhi Public School, Dwarka",
         date: "Apr 2020 - Mar 2021",
-        grade: "84.2%",
+        grade: "92.6%",
         desc: "I completed my class 12 education at Delhi Public School, Dwarka, New Delhi, Delhi, where I studied Scienceand engineering fundamentals to successfully complete my higher secondary education.",
         degree: "CBSE(XII)",
     },
@@ -307,58 +307,53 @@ export const education = [
 export const projects = [
     {
         id: 0,
-        title: "Trimrr",
+        title: "IP-address Tracker",
         description:
-            "Trimrr is an url shortner app that can shorten your long unreadable url into customized readable url.",
+            "This project enables users to get information about IP addresses all over the world easily with the click of a button along with many other info about it such as its timezone, internet service provider and location information implemented using leafletJS",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955595/Screenshot_248_rid8u6.png",
+            "https://github.com/all-my-frontend-mini-projects/IP-address-tracker_frontend_project/blob/main/design/active-states.jpg",
         tags: [
-            "React Js",
-            "Shadcn Ui",
-            "Tailwind Css",
-            "Supabase"
+            "Vanilla JS",
+            "Leaflet JS",
+            "HTML",
+            "CSS"
         ],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://trimrr-sable.vercel.app/",
+        github: "https://github.com/all-my-frontend-mini-projects/IP-address-tracker_frontend_project",
+        link: "https://ip-address-tracker-app-project.netlify.app/",
     },
     {
         id: 1,
-        title: "Mystery Messenger",
+        title: "Tip Calculator",
         description:
-            "Mystery Messenger lets you message anyone anything anonymously.",
+            "Tip calculator shows a combination of math with javascript to enable users to calculate tip based on bill amount and also enables employees to divide the amount equally evenly instantly.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1726932572/Screenshot_424_p58hcc.png",
+            "https://github.com/all-my-frontend-mini-projects/Tip-calculator-app_frontend_project/blob/main/design/active-states.jpg",
         tags: [
-            "Next Js",
-            "Shadcn Ui",
-            "Tailwind Css",
-            "MongoDB",
-            "Vercel AI SDK",
-            "Gemini API"
+            "HTML",
+            "CSS",
+            "Vanilla JS"
         ],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://mystery-messenger-six.vercel.app/",
+        github: "https://github.com/all-my-frontend-mini-projects/Tip-calculator-app_frontend_project",
+        link: "https://tip-calculator-frontend.netlify.app/",
     },
     {
         id: 2,
-        title: "Crypted Vault",
+        title: "Countries around the world",
         description:
-            "Crypted Vault lets you to upload and store image with web3 security.",
+            "This project enables user to learn more about flags, population, region, capital and much more about various countries around the world which can be sorted based on the continent they belong to and can be accessed easily by searching their name.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1726937896/Screenshot_438_ahmnks.png",
+            "https://github.com/all-my-frontend-mini-projects/Rest-countries-api-with-color-theme-switcher_frontend_project/blob/main/design/desktop-design-home-dark.jpg",
         tags: [
-            "React Js",
-            "Nodejs",
-            "Expressjs",
-            "MongoDB",
-            "Tailwind Css",
-            "Solidity",
+            "HTML",
+            "CSS",
+            "Vanilla JS",
+            "rest-countries API",
         ],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://crypto-vault-self.vercel.app/",
+        github: "https://github.com/all-my-frontend-mini-projects/Rest-countries-api-with-color-theme-switcher_frontend_project",
+        link: "https://rest-country-api-frontend.netlify.app/",
     },
     {
         id: 3,
@@ -373,71 +368,71 @@ export const projects = [
         link: "https://chatting-hub.vercel.app/",
     },
     {
-        id: 2,
+        id: 4,
         title: "Pathfinding Visualizer",
         description:
             "Pathfinfing Visualizer helps you to visualize the path made by various path based algorithms like DFS, BFS, Dijkstra, A-star to reach the destination.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_247_yxlak6.png",
+            "http://bit.ly/4f8iNU8",
         tags: [
             "React Js",
             "Typescript",
             "Tailwind Css"
         ],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
+        github: "https://github.com/SartHak-0-Sach/Pathfinder-Visualizer",
         link: "https://pathfinding-visualizer-plum.vercel.app/",
     },
     {
-        id: 4,
-        title: "Notes Hub",
-        description:
-            "Notes Hub is simple to use free note taking app made with NodeJs, EJS and MongoDB.",
-        image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955595/Screenshot_53_d9bzp5.png",
-        tags: ["Node Js", "EJS", "MongoDb"],
-        category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://notes-hub-ufwa.onrender.com/",
-    },
-    {
         id: 5,
-        title: "Socio Bot",
+        title: "Rock Paper Scissors",
         description:
-            "Socio Bot helps you in creating Likedin, Twitter and Facebook posts by taking your daily day to day events.",
+            "A simple rock paper scissors game application with standard rules combined with an interactive and intuitive interface for people with no friends to play rock paper scissors with.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_47_mrvys9.png",
-        tags: ["Node Js", "MongoDb", "Telegraf", "Gemini"],
-        category: "bot app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://t.me/socio_xyz_bot",
+            "https://github.com/all-my-frontend-mini-projects/Rock-paper-scissors_frontend_project/blob/main/design/desktop-preview.jpg",
+        tags: ["HTML", "CSS", "Vanilla JS"],
+        category: "web app",
+        github: "https://github.com/all-my-frontend-mini-projects/Rock-paper-scissors_frontend_project",
+        link: "https://rock-paper-scissors-frontend.netlify.app/",
     },
     {
         id: 6,
-        title: "Video Calling App",
+        title: "Space tourism website",
         description:
-            "By using Video Calling App, you can create a room where you can video call with the other person that joined the room.",
+            "A website dedicated to space enthusiasts passion to travel to space offering various destinations around us and their information on how to reach them based in a hypothetical scenario.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_83_lnundz.png",
-        tags: ["React Js", "WebRTC", "WebSocket", "Socket.io"],
+            "https://github.com/all-my-frontend-mini-projects/Space-tourism-website-frontend/blob/main/preview.jpg",
+        tags: ["Node Js", "MongoDb", "Telegraf", "Gemini"],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://backend-practice-nine.vercel.app/",
+        github: "https://github.com/all-my-frontend-mini-projects/Space-tourism-website-frontend",
+        link: "https://space-tour-frontend.netlify.app/",
     },
     {
         id: 7,
-        title: "Realtime Tracker",
+        title: "TODO app",
         description:
-            "Realtime Tracker helps you to track the location of whom that connected on the app.",
+            "A standard TODO application offered with a unique and interactive layout to fulfil all your daily goals with ease.",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955596/Screenshot_201_itsuyf.png",
-        tags: ["EJS", "CSS", "Node Js", "WebSocket", "Socket.io"],
+            "https://github.com/all-my-frontend-mini-projects/Todo-app_frontend_project/blob/main/design/active-states-dark.jpg",
+        tags: ["HTML", "CSS", "Vanilla JS"],
         category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://realtime-tracker-76ek.onrender.com",
+        github: "https://github.com/all-my-frontend-mini-projects/Todo-app_frontend_project",
+        link: "https://todo-list-project-application.netlify.app/",
     },
     {
         id: 8,
+        title: "Advice generator",
+        description:
+            "Advice generator is an application whose solo job is to give you random pieces of advice if you ever need one with the push of a button.",
+        image:
+            "https://github.com/all-my-frontend-mini-projects/Advice-generator-app/blob/main/design/active-states.jpg",
+        tags: ["CSS", "HTML", "Vanilla JS"],
+        category: "web app",
+        github: "https://github.com/all-my-frontend-mini-projects/Advice-generator-app",
+        link: "https://free-advice-generator-frontend.netlify.app/",
+    },
+    {
+        id: 9,
         title: "Pin Lite",
         description:
             "Pin Lite helps you to create pins where you can upload your images.",
@@ -449,7 +444,7 @@ export const projects = [
         link: "https://pin-lite.onrender.com/",
     },
     {
-        id: 9,
+        id: 10,
         title: "SMS Spam Classifier",
         description:
             "SMS Spam Classifier classify your sms, email or messages as spam or not.",
@@ -460,7 +455,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 10,
+        id: 11,
         title: "Movie Recommender System",
         description:
             "Movie Recommender System recommends you similar movies based on the entered movie.",
@@ -471,7 +466,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 11,
+        id: 12,
         title: "Laptop Price Predictor",
         description:
             "Laptop Price Predictor predicts you the price based on the provided laptop specification.",
@@ -482,7 +477,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 12,
+        id: 13,
         title: "News Research Tool",
         description:
             "News Research Tool helps you to research on the data avaiable on the websites.",
@@ -493,7 +488,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 13,
+        id: 14,
         title: "Chat with PDF",
         description:
             "Chat with PDF helps you to chat with your PDFs.",
@@ -504,7 +499,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 14,
+        id: 15,
         title: "YT Transcriber",
         description:
             "YT Transcriber gives you the short summary of the youtube video.",
@@ -515,7 +510,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 15,
+        id: 16,
         title: "Allen",
         description:
             "Allen is a voice assistant app that can give answers to your questions.",
@@ -526,7 +521,7 @@ export const projects = [
         github: "https://github.com/SartHak-0-Sach",
     },
     {
-        id: 16,
+        id: 17,
         title: "My Gpt",
         description:
             "My Gpt helps you to ask questions and then it will give answers to your questions.",

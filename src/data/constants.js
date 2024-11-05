@@ -357,18 +357,6 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Chatting Hub",
-        description:
-            "Chatting Hub is a full stack web application where you can chat with your friends in realtime.",
-        image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_62_crgud1.png",
-        tags: ["React Js", "Node Js", "Express Js", "MongoDb", "Socket.io"],
-        category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://chatting-hub.vercel.app/",
-    },
-    {
-        id: 4,
         title: "Pathfinding Visualizer",
         description:
             "Pathfinfing Visualizer helps you to visualize the path made by various path based algorithms like DFS, BFS, Dijkstra, A-star to reach the destination.",
@@ -384,7 +372,7 @@ export const projects = [
         link: "https://pathfinding-visualizer-plum.vercel.app/",
     },
     {
-        id: 5,
+        id: 4,
         title: "Rock Paper Scissors",
         description:
             "A simple rock paper scissors game application with standard rules combined with an interactive and intuitive interface for people with no friends to play rock paper scissors with.",
@@ -396,7 +384,7 @@ export const projects = [
         link: "https://rock-paper-scissors-frontend.netlify.app/",
     },
     {
-        id: 6,
+        id: 5,
         title: "Space tourism website",
         description:
             "A website dedicated to space enthusiasts passion to travel to space offering various destinations around us and their information on how to reach them based in a hypothetical scenario.",
@@ -408,7 +396,7 @@ export const projects = [
         link: "https://space-tour-frontend.netlify.app/",
     },
     {
-        id: 7,
+        id: 6,
         title: "TODO app",
         description:
             "A standard TODO application offered with a unique and interactive layout to fulfil all your daily goals with ease.",
@@ -420,7 +408,7 @@ export const projects = [
         link: "https://todo-list-project-application.netlify.app/",
     },
     {
-        id: 8,
+        id: 7,
         title: "Advice generator",
         description:
             "Advice generator is an application whose solo job is to give you random pieces of advice if you ever need one with the push of a button.",
@@ -430,6 +418,18 @@ export const projects = [
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Advice-generator-app",
         link: "https://free-advice-generator-frontend.netlify.app/",
+    },
+    {
+        id: 8,
+        title: "",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
         id: 9,

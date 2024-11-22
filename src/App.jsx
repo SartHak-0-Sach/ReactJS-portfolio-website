@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/index"
 import Hero from "./components/HeroSection/index"
 import Skills from "./components/Skills/index"
 import Education from "./components/Education/index.jsx"
+import Certifications from "./components/Certifications/index.jsx"
 import { BrowserRouter as Router } from 'react-router-dom';
 import Experience from './components/Experience/index.jsx';
 import Projects from './components/Projects/index.jsx';
@@ -26,7 +27,8 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `;
 
-function App() {
+function App()
+{
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
@@ -38,7 +40,14 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
+            <br />
+            <br />
+          </Wrapper>
+          <Wrapper>
             <Experience />
+            <Certifications />
+            <br />
+            <br />
           </Wrapper>
           <Projects />
           <Wrapper>

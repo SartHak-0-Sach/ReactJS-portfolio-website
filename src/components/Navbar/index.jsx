@@ -191,7 +191,7 @@ const Navbar = () => {
                 <NavLink href='#contact'>Contact</NavLink>
             </NavItems>
             <ButtonContainer>
-                <GithubButton href={Bio.github} target='_blank'>Github Profile</GithubButton>
+                <GithubButton href={Bio.github} target='_blank'>Github</GithubButton>
             </ButtonContainer>
         </NavContainer>
         {open && <MobileMenu open={open}>
@@ -213,7 +213,7 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
                 setOpen(!open)
             }}>Contact</MobileLink>
-            <GithubButton style={{ padding: '10px 16px',width: 'max-content', fontWeight: "bold"}} href={Bio.github} target="_blank">Github Profile</GithubButton>
+            <GithubButton style={{ padding: '10px 16px',width: 'max-content', fontWeight: "bold"}} href={Bio.github} target="_blank">Github</GithubButton>
         </MobileMenu>}
     </Nav>
 }

@@ -3,7 +3,7 @@ export const Bio = {
     roles: [
         "Full Stack Developer",
         "App Developer",
-        "AI-ML engineer",
+        "AI/ML engineer",
         "Web3 Developer"
     ],
     description:
@@ -260,7 +260,7 @@ export const experiences = [
         role: "Research Intern",
         company: "Netaji Subhash University of Technology",
         date: "July 2024 - September 2024",
-        desc: "Worked under professor Preeti Kaur in NSUT on the topic of calculating tumour cellularity and nuclei count using Deep Learning models and U-Net architecture to predict development of cancers in contrast enhanced CT-scan images pre-processed and prepared using ImageJ software done by image segmentation and masking for better classification accuracy using Tensorflow, Scikit learn and OpenCV.",
+        desc: "Worked under professor Preeti Kaur in NSUT on calculating tumour cellularity and nuclei count using Deep Learning models and U-Net architecture to predict development of cancers in contrast enhanced CT-scan images pre-processed and prepared using ImageJ software done by image segmentation and masking for better classification accuracy using Tensorflow, Scikit learn and OpenCV.",
         doc: "",
     },
     {
@@ -275,6 +275,36 @@ export const experiences = [
 ];
 
 export const education = [
+    {
+        id: 0,
+        img: "https://www.edarabia.com/wp-content/uploads/2013/08/delhi-technological-university-logo-india.jpg",
+        school: "Delhi Technological University",
+        date: "Dec 2021 - June 2025",
+        grade: "8.0 CGPA",
+        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Delhi Technological University, New Delhi. I have completed 6 semesters and have a CGPA of 8.0. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+        degree: "BTech, major- Mechanical Engineering, minor- Computer Science",
+    },
+    {
+        id: 1,
+        img: "https://th.bing.com/th/id/OIP.IhHYnchVbOxxA0p-zuijRgHaJC?rs=1&pid=ImgDetMain",
+        school: "Delhi Public School, Dwarka",
+        date: "Apr 2020 - Mar 2021",
+        grade: "92.6%",
+        desc: "I completed my class 12 education at Delhi Public School, Dwarka, New Delhi, Delhi, where I studied Scienceand engineering fundamentals to successfully complete my higher secondary education.",
+        degree: "CBSE(XII)",
+    },
+    {
+        id: 2,
+        img: "https://th.bing.com/th/id/OIP.IhHYnchVbOxxA0p-zuijRgHaJC?rs=1&pid=ImgDetMain",
+        school: "Delhi Public School, Dwarka",
+        date: "Apr 2018 - Mar 2019",
+        grade: "94.6%",
+        desc: "I completed my class 10 education at Delhi Public School, Dwarka, New Delhi, Delhi, where I studied Science and other fundamental subjects taught in middle school for successful completion of marticulation.",
+        degree: "CBSE(X)",
+    },
+];
+
+export const certifications = [
     {
         id: 0,
         img: "https://www.edarabia.com/wp-content/uploads/2013/08/delhi-technological-university-logo-india.jpg",

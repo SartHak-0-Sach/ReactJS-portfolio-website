@@ -140,10 +140,16 @@ const Projects = ({openModal,setOpenModal}) => {
                         <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
                     }
                     <Divider />
-                    {toggle === 'gen ai' ?
-                        <ToggleButton active="true" value="gen ai" onClick={() => setToggle('gen ai')}>GEN AI</ToggleButton>
+                    {toggle === 'games' ?
+                        <ToggleButton active="true" value="games" onClick={() => setToggle('games')}>games</ToggleButton>
                         :
-                        <ToggleButton value="gen ai" onClick={() => setToggle('gen ai')}>GEN AI</ToggleButton>
+                        <ToggleButton value="games" onClick={() => setToggle('games')}>GAMES</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'blockchain' ?
+                        <ToggleButton active="true" value="blockchain" onClick={() => setToggle('blockchain')}>blockchain</ToggleButton>
+                        :
+                        <ToggleButton value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APP</ToggleButton>
                     }
                 </ToggleButtonGroup>
                 <CardContainer>

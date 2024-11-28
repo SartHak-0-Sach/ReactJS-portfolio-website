@@ -127,6 +127,10 @@ export const skills = [
                 image: "https://www.postgresql.org/media/img/about/press/elephant.png",
             },
             {
+                name: "Springboot",
+                image: "https://dominickm.com/wp-content/uploads/2016/06/spring-boot-logo_full.png",
+            },
+            {
                 name: "MongoDB",
                 image:
                     "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
@@ -154,7 +158,7 @@ export const skills = [
             {
                 name: "Nginx",
                 image: "https://icon.icepanel.io/Technology/svg/NGINX.svg",
-            },
+            }
         ],
     },
     {
@@ -316,7 +320,7 @@ export const certifications = [
     },
     {
         id: 1,
-        img: "https://girlscript.github.io/GirlScript-Summer-of-Code",
+        img: "https://imgs.search.brave.com/O4HH8VhN0YUzsgIGAngUKMIBsqHyE48Lruj6uXZq_rk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL2dpcmxz/Y3JpcHQvR2lybFNj/cmlwdC1TdW1tZXIt/b2YtQ29kZS9yYXcv/bWFzdGVyL2ltYWdl/cy9mYXZpY29uL2Zh/dmljb24ucG5n",
         role: "Contributor at GSSOC",
         company: "GirlScript Summer of Code",
         date: "October 2024",
@@ -334,16 +338,16 @@ export const certifications = [
     },
     {
         id: 3,
-        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
-        role: "3rd rank",
-        company: "Hack with Delhi hackathon",
+        img: "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732791632/fa9ec552-7dec-4ca4-bada-eb0085163c8b.png",
+        role: "3rd rank in Build with Delhi hackathon",
+        company: "Hack with India",
         date: "July 2024",
         desc: "Received 3rd rank in Hack with Delhi Web3 hackathon that involved production of applications based on Hive blockchain technology. My application was based on developing a blockchain based EVM technology that can be used across India as national elections were a hot topic back in July 2024 and a lot of crimes regarding EVM hacking and destruction were happening that can be solved with my application.",
         doc: "",
     },
     {
         id: 4,
-        img: "https://moocable.com/bootcamp/free-harkirat-singh-live-full-stack-open-source-cohort-alternative/",
+        img: "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732791731/course-banner_cd3hcw.jpg",
         role: "100xdevs 0-100 cohort student",
         company: "Harkirat Singh",
         date: "Dec-2023 September 2024",
@@ -352,16 +356,16 @@ export const certifications = [
     },
     {
         id: 5,
-        img: "https://swayam.gov.in/nc_details/NPTEL",
-        role: "Received AIR (All India Rank) 1 in Social Innovation course",
+        img: "https://www.logolynx.com/images/logolynx/be/bed8f1a279a0882c1d7044f1e6c821f1.png",
+        role: "AIR 1 in NPTEL exam",
         company: "NPTEL",
         date: "November 2023",
-        desc: "Received All India Rank 1 in social innovation course by scoring 99 marks out of 100 in a curriculum that involved 25 marks of assignments and 75 marks of examination.",
+        desc: "Received All India Rank 1 in social innovation course by scoring 99 marks out of 100 in a curriculum that involved 25 marks of assignments and 75 marks of examination during my 5th semester.",
         doc: "",
     },
     {
         id: 6,
-        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
+        img: "https://sarvesh18.github.io/images/CodeChef.png",
         role: "Skill test certifications and awards",
         company: "CodeChef",
         date: "October 2023",
@@ -370,7 +374,7 @@ export const certifications = [
     },
     {
         id: 7,
-        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
+        img: "https://jobrefresher.com/uploads/images/d3555bfe758ec37c.png",
         role: "Hackathon runner-up certificate",
         company: "Lady Hardinge Medical College (LHMC)",
         date: "June 2022, 2023",
@@ -379,7 +383,7 @@ export const certifications = [
     },
     {
         id: 8,
-        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
+        img: "https://www.iitr.ac.in/nsc2019/static/media/IITR_new_logo_color.b3fdd3ee.png",
         role: "CyberSprint hackathon finalist certificate",
         company: "IIT Roorkee",
         date: "April 2023",
@@ -388,7 +392,7 @@ export const certifications = [
     },
     {
         id: 9,
-        img: "https://th.bing.com/th/id/OIP.YvKFBs8F8pRggMwSNsp5hgHaHa?rs=1&pid=ImgDetMain",
+        img: "https://levelupcollege.com/wp-content/uploads/2021/10/coding-ninjas-logo-white.png",
         role: "Full stack web development and DSA course",
         company: "Coding Ninjas",
         date: "Jan 2023- May 2024",
@@ -404,7 +408,7 @@ export const projects = [
         description:
             "This project enables users to get information about IP addresses all over the world easily with the click of a button along with many other info about it such as its timezone, internet service provider and location information implemented using leafletJS",
         image:
-            "https://github.com/all-my-frontend-mini-projects/IP-address-tracker_frontend_project/blob/main/design/active-states.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732801404/active-states_dwoxgb.jpg",
         tags: [
             "Vanilla JS",
             "Leaflet JS",
@@ -413,7 +417,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/IP-address-tracker_frontend_project",
-        link: "https://ip-address-tracker-app-project.netlify.app/",
+        link: "https://github.com/all-my-frontend-mini-projects/IP-address-tracker_frontend_project",
     },
     {
         id: 1,
@@ -421,7 +425,7 @@ export const projects = [
         description:
             "Tip calculator shows a combination of math with javascript to enable users to calculate tip based on bill amount and also enables employees to divide the amount equally evenly instantly.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Tip-calculator-app_frontend_project/blob/main/design/active-states.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732801945/active-states_loskiq.jpg",
         tags: [
             "HTML",
             "CSS",
@@ -429,7 +433,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Tip-calculator-app_frontend_project",
-        link: "https://tip-calculator-frontend.netlify.app/",
+        link: "https://github.com/all-my-frontend-mini-projects/Tip-calculator-app_frontend_project",
     },
     {
         id: 2,
@@ -437,7 +441,7 @@ export const projects = [
         description:
             "This project enables user to learn more about flags, population, region, capital and much more about various countries around the world which can be sorted based on the continent they belong to and can be accessed easily by searching their name.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Rest-countries-api-with-color-theme-switcher_frontend_project/blob/main/design/desktop-design-home-dark.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732802199/active-states_qnqewf.jpg",
         tags: [
             "HTML",
             "CSS",
@@ -446,7 +450,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Rest-countries-api-with-color-theme-switcher_frontend_project",
-        link: "https://rest-country-api-frontend.netlify.app/",
+        link: "https://github.com/all-my-frontend-mini-projects/Rest-countries-api-with-color-theme-switcher_frontend_project",
     },
     {
         id: 3,
@@ -470,7 +474,7 @@ export const projects = [
         description:
             "A simple rock paper scissors game application with standard rules combined with an interactive and intuitive interface for people with no friends to play rock paper scissors with.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Rock-paper-scissors_frontend_project/blob/main/design/desktop-preview.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732805986/active-states_sto7fy.jpg",
         tags: ["HTML", "CSS", "Vanilla JS"],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Rock-paper-scissors_frontend_project",
@@ -482,7 +486,7 @@ export const projects = [
         description:
             "A website dedicated to space enthusiasts passion to travel to space offering various destinations around us and their information on how to reach them based in a hypothetical scenario.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Space-tourism-website-frontend/blob/main/preview.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732806116/a6e70b0f-56dd-4b70-be7b-116880cfa388.png",
         tags: ["Node Js", "MongoDb", "Telegraf", "Gemini"],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Space-tourism-website-frontend",
@@ -494,7 +498,7 @@ export const projects = [
         description:
             "A standard TODO application offered with a unique and interactive layout to fulfil all your daily goals with ease.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Todo-app_frontend_project/blob/main/design/active-states-dark.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732806235/active-states_hsqpzm.jpg",
         tags: ["HTML", "CSS", "Vanilla JS"],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Todo-app_frontend_project",
@@ -506,7 +510,7 @@ export const projects = [
         description:
             "Advice generator is an application whose solo job is to give you random pieces of advice if you ever need one with the push of a button.",
         image:
-            "https://github.com/all-my-frontend-mini-projects/Advice-generator-app/blob/main/design/active-states.jpg",
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732810600/active-states_nxrdyv.jpg",
         tags: ["CSS", "HTML", "Vanilla JS"],
         category: "web app",
         github: "https://github.com/all-my-frontend-mini-projects/Advice-generator-app",
@@ -525,103 +529,138 @@ export const projects = [
         link: "",
     },
     {
-        id: 9,
-        title: "Pin Lite",
+        id: 8,
+        title: "",
         description:
-            "Pin Lite helps you to create pins where you can upload your images.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955594/Screenshot_35_mnm9qk.png",
-        tags: ["EJS", "CSS", "MongoDb", "Passport Js"],
-        category: "web app",
-        github: "https://github.com/SartHak-0-Sach",
-        link: "https://pin-lite.onrender.com/",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 10,
-        title: "SMS Spam Classifier",
+        id: 8,
+        title: "",
         description:
-            "SMS Spam Classifier classify your sms, email or messages as spam or not.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1720955593/Screenshot_4_h1tcxd.png",
-        tags: ["Python", "Numpy", "Pandas", "Keras", "NLTK", "Matplotlib", "Naive Bayes", "Scikit-Learn", "Streamlit"],
-        category: "machine learning",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 11,
-        title: "Movie Recommender System",
+        id: 8,
+        title: "",
         description:
-            "Movie Recommender System recommends you similar movies based on the entered movie.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721037478/Screenshot_253_m8sc9y.png",
-        tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "Streamlit"],
-        category: "machine learning",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 12,
-        title: "Laptop Price Predictor",
+        id: 8,
+        title: "",
         description:
-            "Laptop Price Predictor predicts you the price based on the provided laptop specification.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721037473/Screenshot_252_bspvpq.png",
-        tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "XGBoost", "Streamlit"],
-        category: "machine learning",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 13,
-        title: "News Research Tool",
+        id: 8,
+        title: "",
         description:
-            "News Research Tool helps you to research on the data avaiable on the websites.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721040081/Screenshot_254_e2bf0c.png",
-        tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
-        category: "gen ai",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 14,
-        title: "Chat with PDF",
+        id: 8,
+        title: "",
         description:
-            "Chat with PDF helps you to chat with your PDFs.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721040924/Screenshot_255_qgri0w.png",
-        tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
-        category: "gen ai",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 15,
-        title: "YT Transcriber",
+        id: 8,
+        title: "",
         description:
-            "YT Transcriber gives you the short summary of the youtube video.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721041457/Screenshot_256_hrkpyg.png",
-        tags: ["Python", "Numpy", "Pandas", "Langchain", "FAISS", "Gemini Api", "Streamlit"],
-        category: "gen ai",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 16,
-        title: "Allen",
+        id: 8,
+        title: "",
         description:
-            "Allen is a voice assistant app that can give answers to your questions.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721043137/Allen_eenyab.jpg",
-        tags: ["Flutter", "OpenAi Api"],
-        category: "android app",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
     {
-        id: 17,
-        title: "My Gpt",
+        id: 8,
+        title: "",
         description:
-            "My Gpt helps you to ask questions and then it will give answers to your questions.",
+            "",
         image:
-            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721042910/MyGpt_nb86a9_Sharpened_ky4wjp.jpg",
-        tags: ["Flutter", "Provider", "OpenAi Api"],
-        category: "android app",
-        github: "https://github.com/SartHak-0-Sach",
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
     },
+    {
+        id: 8,
+        title: "",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
+    },
+    {
+        id: 8,
+        title: "",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "",
+        github: "",
+        link: "",
+    },
+    
 ];
+
+// machine learning, blockchain, android app, games, selenium

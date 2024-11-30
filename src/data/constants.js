@@ -518,7 +518,187 @@ export const projects = [
     },
     {
         id: 8,
-        title: "",
+        title: "Ad-creatives",
+        description:
+            "An Image Classification Model for Advertisements: This project involves training a machine learning model to classify whether a given image is an advertisement or not. The model is trained using a dataset of images, and the project includes all necessary code, workflows, and dependencies to reproduce the results.",
+        image:
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732867139/active-states_sju3yi.jpg",
+        tags: ["Python", "Tensorflow", "Keras", "openCV", "Scikit learn"],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/Ad-creatives",
+        link: "https://github.com/SartHak-0-Sach/Ad-creatives",
+    },
+    {
+        id: 9,
+        title: "Admin analytics dashboard",
+        description:
+            "A powerful, real-time data visualization tool designed for business administrators which allows seamless data management and offers insights with an interactive and modern user experience.",
+        image:
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732876934/d82d46ff-aaef-4ab7-929a-1e154a74957f.png",
+        tags: ["React", "Ant Design", "GraphQL", "ES6+ JS", "CSS/Sass"],
+        category: "web app",
+        github: "https://github.com/SartHak-0-Sach/Admin_analytics_dashboard",
+        link: "https://github.com/SartHak-0-Sach/Admin_analytics_dashboard",
+    },
+    {
+        id: 10,
+        title: "Movie Recommend System",
+        description:
+            "A movie recommendation system that uses AI to recommend movies to a person similar to their preference and taste.",
+        image:
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732949164/869163df-a9ee-4d71-a9f9-192e45fcba13.png",
+        tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "Streamlit"],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/Movie-Recommender-System",
+        link: "https://github.com/SartHak-0-Sach/Movie-Recommender-System",
+    },
+    {
+        id: 11,
+        title: "AMIGO-Video conferencing app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "web app",
+        github: "https://github.com/SartHak-0-Sach/Amigo-Video_conferencing_app",
+        link: "https://github.com/SartHak-0-Sach/Amigo-Video_conferencing_app",
+    },
+    {
+        id: 12,
+        title: "BlogIt-Modern blog app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "web app",
+        github: "https://github.com/SartHak-0-Sach/BlogIt-Modern_graphQL_based_blog_app",
+        link: "https://github.com/SartHak-0-Sach/BlogIt-Modern_graphQL_based_blog_app",
+    },
+    {
+        id: 13,
+        title: "Daily fitness app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "android app",
+        github: "https://github.com/SartHak-0-Sach/Daily_fitness_app_ReactNative",
+        link: "https://github.com/SartHak-0-Sach/Daily_fitness_app_ReactNative",
+    },
+    {
+        id: 14,
+        title: "EUREKA-AI travel planner app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "android app",
+        github: "https://github.com/SartHak-0-Sach/EUREKA-an_AI-based_travel_planner_app",
+        link: "https://github.com/SartHak-0-Sach/EUREKA-an_AI-based_travel_planner_app",
+    },
+    {
+        id: 15,
+        title: "Cab booking app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "android app",
+        github: "https://github.com/SartHak-0-Sach/Full_stack_cab_booking_app-ReactNative",
+        link: "https://github.com/SartHak-0-Sach/Full_stack_cab_booking_app-ReactNative",
+    },
+    {
+        id: 16,
+        title: "interactive dating app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "android app",
+        github: "https://github.com/SartHak-0-Sach/Full_stack_dating_app-ReactNative",
+        link: "https://github.com/SartHak-0-Sach/Full_stack_dating_app-ReactNative",
+    },
+    {
+        id: 17,
+        title: "Hearmeout-AI based podcast generation application",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/Hearmeout-AI_based_podcast_generation_application",
+        link: "https://github.com/SartHak-0-Sach/Hearmeout-AI_based_podcast_generation_application",
+    },
+    {
+        id: 18,
+        title: "Krypt-crypto market transaction app",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "blockchain",
+        github: "https://github.com/SartHak-0-Sach/Krypt_blockchain_project",
+        link: "https://github.com/SartHak-0-Sach/Krypt_blockchain_project",
+    },
+    {
+        id: 11,
+        title: "Laptop Price Predictor",
+        description:
+            "Laptop Price Predictor predicts you the price of a device you have/aspire to have based on the provided laptop specification. This can also act as a guide for someone who has less knowledge about laptops in general.",
+        image:
+            "https://res.cloudinary.com/itshirdeshk/image/upload/v1721037473/Screenshot_252_bspvpq.png",
+        tags: ["Python", "Numpy", "Pandas", "Keras", "Scikit-Learn", "NLTK", "Matplotlib", "Seaborn", "XGBoost", "Streamlit"],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/Laptop-Price-Predictor",
+        link: "https://github.com/SartHak-0-Sach/Laptop-Price-Predictor",
+    },
+    {
+        id: 20,
+        title: "Miru Video streaming application",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "web app",
+        github: "https://github.com/SartHak-0-Sach/Miru-video_streaming_platform",
+        link: "https://github.com/SartHak-0-Sach/Miru-video_streaming_platform",
+    },
+    {
+        id: 21,
+        title: "chatbot application",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/NLP_chatbot_application",
+        link: "https://github.com/SartHak-0-Sach/NLP_chatbot_application",
+    },
+    {
+        id: 22,
+        title: "SurgiPlanPRO-Hospital management application",
+        description:
+            "",
+        image:
+            "",
+        tags: ["", "", ""],
+        category: "web app",
+        github: "https://github.com/SartHak-0-Sach/SurgiPlanPRO-Hospital_management_app",
+        link: "https://github.com/SartHak-0-Sach/SurgiPlanPRO-Hospital_management_app",
+    },
+    {
+        id: 23,
+        title: "PULSE-Social media application",
         description:
             "",
         image:
@@ -529,8 +709,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 24,
+        title: "Instagram web scraping app",
         description:
             "",
         image:
@@ -541,8 +721,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 25,
+        title: "space invaders arcade game",
         description:
             "",
         image:
@@ -553,8 +733,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 26,
+        title: "Tetris",
         description:
             "",
         image:
@@ -565,8 +745,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 27,
+        title: "Video timestamp chrome extension",
         description:
             "",
         image:
@@ -577,8 +757,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 28,
+        title: "Voice assistant app",
         description:
             "",
         image:
@@ -589,8 +769,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 29,
+        title: "VOTEX-decentralized voting application",
         description:
             "",
         image:
@@ -601,8 +781,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 30,
+        title: "whatsapp automated bot",
         description:
             "",
         image:
@@ -613,8 +793,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 31,
+        title: "Whatsapp chat analyzer",
         description:
             "",
         image:
@@ -625,8 +805,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 32,
+        title: "YUGEN-ecommerce store of the modern generation",
         description:
             "",
         image:
@@ -637,8 +817,8 @@ export const projects = [
         link: "",
     },
     {
-        id: 8,
-        title: "",
+        id: 33,
+        title: "Talkalot-Realtime chat app",
         description:
             "",
         image:
@@ -647,20 +827,7 @@ export const projects = [
         category: "",
         github: "",
         link: "",
-    },
-    {
-        id: 8,
-        title: "",
-        description:
-            "",
-        image:
-            "",
-        tags: ["", "", ""],
-        category: "",
-        github: "",
-        link: "",
-    },
-    
+    }    
 ];
 
 // machine learning, blockchain, android app, games, selenium

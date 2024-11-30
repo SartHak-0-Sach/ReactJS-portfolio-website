@@ -123,33 +123,39 @@ const Projects = ({openModal,setOpenModal}) => {
                     }
                     <Divider />
                     {toggle === 'web app' ?
-                        <ToggleButton active="true" value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+                        <ToggleButton active="true" value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
                         :
-                        <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+                        <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
                     }
                     <Divider />
                     {toggle === 'android app' ?
-                        <ToggleButton active="true" value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+                        <ToggleButton active="true" value="android app" onClick={() => setToggle('android app')}>ANDROID APPS</ToggleButton>
                         :
-                        <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+                        <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APPS</ToggleButton>
                     }
                     <Divider />
                     {toggle === 'machine learning' ?
-                        <ToggleButton active="true" value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+                        <ToggleButton active="true" value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING BASED APPS</ToggleButton>
                         :
-                        <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+                        <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING BASED APPS</ToggleButton>
                     }
                     <Divider />
                     {toggle === 'games' ?
-                        <ToggleButton active="true" value="games" onClick={() => setToggle('games')}>games</ToggleButton>
+                        <ToggleButton active="true" value="games" onClick={() => setToggle('games')}>GAMES</ToggleButton>
                         :
                         <ToggleButton value="games" onClick={() => setToggle('games')}>GAMES</ToggleButton>
                     }
                     <Divider />
-                    {toggle === 'blockchain' ?
-                        <ToggleButton active="true" value="blockchain" onClick={() => setToggle('blockchain')}>blockchain</ToggleButton>
+                    {toggle === 'selenium' ?
+                        <ToggleButton active="true" value="selenium" onClick={() => setToggle('selenium')}>SELENIUM BASED PROJECTS</ToggleButton>
                         :
-                        <ToggleButton value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APP</ToggleButton>
+                        <ToggleButton value="selenium" onClick={() => setToggle('selenium')}>SELENIUM BASED PROJECTS</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'blockchain' ?
+                        <ToggleButton active="true" value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APPS</ToggleButton>
+                        :
+                        <ToggleButton value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APPS</ToggleButton>
                     }
                 </ToggleButtonGroup>
                 <CardContainer>

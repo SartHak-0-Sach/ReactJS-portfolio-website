@@ -135,9 +135,9 @@ const Projects = ({openModal,setOpenModal}) => {
                     }
                     <Divider />
                     {toggle === 'machine learning' ?
-                        <ToggleButton active="true" value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING BASED APPS</ToggleButton>
+                        <ToggleButton active="true" value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING MODELS</ToggleButton>
                         :
-                        <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING BASED APPS</ToggleButton>
+                        <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING MODELS</ToggleButton>
                     }
                     <Divider />
                     {toggle === 'games' ?
@@ -147,15 +147,21 @@ const Projects = ({openModal,setOpenModal}) => {
                     }
                     <Divider />
                     {toggle === 'selenium' ?
-                        <ToggleButton active="true" value="selenium" onClick={() => setToggle('selenium')}>SELENIUM BASED PROJECTS</ToggleButton>
+                        <ToggleButton active="true" value="selenium" onClick={() => setToggle('selenium')}>SELENIUM PROJECTS</ToggleButton>
                         :
-                        <ToggleButton value="selenium" onClick={() => setToggle('selenium')}>SELENIUM BASED PROJECTS</ToggleButton>
+                        <ToggleButton value="selenium" onClick={() => setToggle('selenium')}>SELENIUM PROJECTS</ToggleButton>
                     }
                     <Divider />
                     {toggle === 'blockchain' ?
-                        <ToggleButton active="true" value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APPS</ToggleButton>
+                        <ToggleButton active="true" value="blockchain" onClick={() => setToggle('blockchain')}>WEB3/BLOCKCHAIN APPS</ToggleButton>
                         :
-                        <ToggleButton value="blockchain" onClick={() => setToggle('blockchain')}>BLOCKCHAIN/WEB3 APPS</ToggleButton>
+                        <ToggleButton value="blockchain" onClick={() => setToggle('blockchain')}>WEB3/BLOCKCHAIN APPS</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'chrome extension' ?
+                        <ToggleButton active="true" value="chrome extension" onClick={() => setToggle('chrome extension')}>CHROME EXTENSIONS</ToggleButton>
+                        :
+                        <ToggleButton value="chrome extension" onClick={() => setToggle('chrome extension')}>CHROME EXTENSIONS</ToggleButton>
                     }
                 </ToggleButtonGroup>
                 <CardContainer>

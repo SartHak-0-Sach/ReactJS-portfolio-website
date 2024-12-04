@@ -571,7 +571,7 @@ export const projects = [
             "A feature-rich, fully responsive CMS Blog App built using modern web technologies. Easily manage and publish blog posts, categories, and author information.",
         image:
             "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732977634/6d40f070-d03a-48d8-8a23-3fdf6b9b81b9.png",
-        tags: ["React", "NextJS", "Tailwind CSS", "graphCMS", "graphQL", "nodeJS", "Express", "MongoDB", "PostgreSQL", "markdown support"],
+        tags: ["NextJS", "Tailwind CSS", "graphCMS", "React", "graphQL", "MongoDB", "PostgreSQL", "markdown support"],
         category: "web app",
         github: "https://github.com/SartHak-0-Sach/BlogIt-Modern_graphQL_based_blog_app",
         link: "https://github.com/SartHak-0-Sach/BlogIt-Modern_graphQL_based_blog_app",
@@ -595,7 +595,7 @@ export const projects = [
             "A smart travel assistant that helps you plan trips effortlessly using AI-powered recommendations! A cross platform application that offers a seamless and modern travel planning experience with personalized itineraries, accommodations, and cost estimates all in one place.",
         image:
             "https://res.cloudinary.com/dhjxadhrs/image/upload/v1732997569/active-states_ue5cez.jpg",
-        tags: ["React Native", "Expo Router", "Firebase backend", "Gemini API", "Firebase Auth", "React Navigation", "Firebase DB"],
+        tags: ["React Native", "Expo Router", "Firebase backend", "Gemini API", "Firebase Auth", "React Navigation"],
         category: "android app",
         github: "https://github.com/SartHak-0-Sach/EUREKA-an_AI-based_travel_planner_app",
         link: "https://github.com/SartHak-0-Sach/EUREKA-an_AI-based_travel_planner_app",
@@ -676,10 +676,10 @@ export const projects = [
         id: 21,
         title: "chatbot application",
         description:
-            "",
+            "AI Chatbot made using Deep Learning and Natural Language Processing. Integrated with APIs (Weather API, Movie API) and also parsing data from wikipedia using the wikipedia library in python. Also created a user interface for the chatbot using ReactJS, ensuring a seamless and interactive user experience.",
         image:
-            "",
-        tags: ["", "", ""],
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733299494/active-states_oqnnpk.jpg",
+        tags: ["ReactJS", "NLTK", "Python", "CSS", "Pytorch", "Deep Learning", "Feedforward Neural Network"],
         category: "machine learning",
         github: "https://github.com/SartHak-0-Sach/NLP_chatbot_application",
         link: "https://github.com/SartHak-0-Sach/NLP_chatbot_application",
@@ -700,10 +700,10 @@ export const projects = [
         id: 23,
         title: "PULSE-Social media application",
         description:
-            "",
+            "A full stack social media application with a redesigned look, user interaction to community management, technical implementation, and various features, including nested deep comments, notifications, real-time-search, and much more.",
         image:
-            "",
-        tags: ["", "", ""],
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733300141/c82e477d-49f2-40f1-a696-69fe9b4f7e1a.png",
+        tags: ["NextJS", "Clerk", "NextJS app router", "MongoDB", "Tailwind CSS", "Zod", "Typescript", "ShadCN"],
         category: "web app",
         github: "https://github.com/SartHak-0-Sach/Pulse-social_media_application",
         link: "https://github.com/SartHak-0-Sach/Pulse-social_media_application",
@@ -760,10 +760,10 @@ export const projects = [
         id: 28,
         title: "Voice assistant app",
         description:
-            "",
+            "A voice assistant application developed for both platforms Android and IoS using React Native and chatGPT API for easy communication available for free. This can also act as a great tool for people with partial or complete blindness or any other kind of vision impediment.",
         image:
-            "",
-        tags: ["", "", ""],
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733300794/active-states_ymxper.jpg",
+        tags: ["React Native", "ChatGPT", "React Navigation", "tailwind CSS", "Babel", "Dall-E image generation"],
         category: "android app",
         github: "https://github.com/SartHak-0-Sach/Voice_assistant_app_ReactNative",
         link: "https://github.com/SartHak-0-Sach/Voice_assistant_app_ReactNative",
@@ -808,10 +808,10 @@ export const projects = [
         id: 32,
         title: "YUGEN-ecommerce store of the modern generation",
         description:
-            "",
+            "An ecommerce web application made using NextJS offered with an intuitive interface. This application offers easy checkin checkout functionality for customers while purchasing using Stripe payment that offers a wide range of payment options. Combined with an interactive layout developed using Tailwind CSS, this application overall can be your single stop for online shopping.",
         image:
-            "",
-        tags: ["", "", ""],
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733300141/c82e477d-49f2-40f1-a696-69fe9b4f7e1a.png",
+        tags: ["NextJS", "Stripe payment", "Admin dashboard", "Payload CMS", "Typescript", "Tailwind CSS"],
         category: "web app",
         github: "https://github.com/SartHak-0-Sach/Yugen-nextgen_ecommerce_store_application",
         link: "https://github.com/SartHak-0-Sach/Yugen-nextgen_ecommerce_store_application",
@@ -820,14 +820,24 @@ export const projects = [
         id: 33,
         title: "TalkAlot-Realtime chat app",
         description:
-            "",
+            "A simple chat application that offers realtime communication features for users presented in an interactive layout. This application is available on both Android and iOS for easy cross platform communication.",
         image:
-            "",
-        tags: ["", "", ""],
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733300857/active-states_xiwv9s.jpg",
+        tags: ["React Native", "SocketIO", "Redux", "NodeJS", "Gifted chat UI", "React navigation"],
         category: "android app",
         github: "https://github.com/SartHak-0-Sach/TalkAlot-A_react-native_based_realtime_chat_app",
         link: "https://github.com/SartHak-0-Sach/TalkAlot-A_react-native_based_realtime_chat_app",
-    }    
+    },
+    {
+        id: 34,
+        title: "Finance advice Chatbot application",
+        description:
+            "A chatbot that uses llama-2 family of models and Retrieval-Augmented Generation (RAG) to answer your finance-related questions and cite its sources on your CPU.",
+        image:
+            "https://res.cloudinary.com/dhjxadhrs/image/upload/v1733299581/active-states_x0awau.jpg",
+        tags: ["Python", "Jupyter notebook", "langchain", "llama", "llm", "retrieval-augmented generation", "web scraping"],
+        category: "machine learning",
+        github: "https://github.com/SartHak-0-Sach/Finance-education_chatbot_application",
+        link: "https://github.com/SartHak-0-Sach/Finance-education_chatbot_application",
+    }
 ];
-
-// machine learning, blockchain, android app, games, selenium
